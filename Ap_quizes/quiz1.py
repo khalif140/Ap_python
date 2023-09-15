@@ -1,21 +1,32 @@
 
 # 1. In your on words, describe what a variable is.
-"A varible is a system"
+"A varible is a name that can represent a number or name or a piece of program Ex:"
+Age = 16
+Weight =  160
+Name = "mark"
+Height = 6
 # 2. Name three (3) operators we've learned about in class and describe 
+"Comparison, Assignment and Logical Operater"
 # a situation where you would use each one. 
-
+print ("Comparison", Weight < Age)
+print ("Assignment", Weight = Name) 
+print ("Logical", Weight < Age or Name > Height) 
 # 3. Describe the difference between camal case and pascal case.
-
+camelCase = "Case" 
+PascalCase= "Case"
 # 4. Which operator is being used in the example below
 numberOfApples = 10
 numberOfOranges = 12
 
 numberOfApples < numberOfOranges
 
+"comparison"
 # 5. You have been given a $100.00 dollar gift card from a family member. Another 
 # family member adds 50.00 dollars to your gift card and a friend gives you $35.50. 
 # Your task is to create variables for each gift amount and a final variable that
 # represents the total amount of money on your gift card. 
+
+
 
 # 6. Create a variable that uses the input function and then print that variable. Your variable 
 # should ask a user to enter their name.  
