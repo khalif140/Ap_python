@@ -5,13 +5,15 @@ Age = 16
 Weight =  160
 Name = "mark"
 Height = 6
+"storing information"
+"container"
 # 2. Name three (3) operators we've learned about in class and describe 
 "Comparison, Assignment and Logical Operater"
 # a situation where you would use each one. 
 print ("Comparison", Weight < Age)
 print ("Assignment", Weight = Name) 
 print ("Logical", Weight < Age or Name > Height) 
-# 3. Describe the difference between camal case and pascal case.
+# 3. Describe the difference between Camal case and Pascal case.
 camelCase = "Case" 
 PascalCase= "Case"
 # 4. Which operator is being used in the example below
@@ -26,10 +28,18 @@ numberOfApples < numberOfOranges
 # Your task is to create variables for each gift amount and a final variable that
 # represents the total amount of money on your gift card. 
 
+baseGIFTCardAmount = 100.00
+familyAddedAmount = 50.00
+friendAddedAmount = 35.00
 
+totalGIFTCardAmount = baseGIFTCardAmount + familyAddedAmount + friendAddedAmount
+Print(totalGIFTCardAmount)
 
 # 6. Create a variable that uses the input function and then print that variable. Your variable 
 # should ask a user to enter their name.  
+name = input("What is your name")
+print(name)
+print("Hello" + name)
 
 # 7. You have been asked to create a program for a community center that wants to plan a cookout. 
 # The community center wants you to build a form program and capture several key data points. 
