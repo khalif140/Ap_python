@@ -53,6 +53,11 @@ print("Hello" + name)
 # have an allergy they can eat the regular bread. What data type would best be used in this 
 # scenario and how would you write a variable to represent this value?
 
+"Boolean = true/false"
+"IF they DO have an allergy - special"
+"IF they DONT have an allergy - regular"
+DoYouHaveAnAllergy = True
+HasAllergy = False
 # 9. In your own words, describe what a program is?
-
+"Sequence  of instructions that perform a task."
 # 10. Describe the difference between a float and an integer. 
