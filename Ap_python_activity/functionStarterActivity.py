@@ -2,8 +2,10 @@
 "A code of instructions"
 # 2. What is are function parameters and arguments and describe
 # the difference between the 2. 
-"parameters are the placeholders for our data"
-"arguements are the values sent to a function"
+
+#parameters are the placeholders for our data
+#arguements are the values sent to a function
+
 # 3. write a function that will print out a welcome message
 # that includes a users name. You will need to use parameters and arguments
 def welcomemsg(name):
