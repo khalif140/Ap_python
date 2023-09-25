@@ -21,3 +21,7 @@ calculate(15,0)
 # what class they have next after this one. this code should use a 
 # variable to pass a value into the parameter of a function. The variable should
 # be real, user data- not hard coded data.
+def Nextclass(name, period):
+    print("Hello"+ name +"! Your next class is"+ period +". Have a nice day!")
+
+Nextclass('Khalif', 'Latin 3')
