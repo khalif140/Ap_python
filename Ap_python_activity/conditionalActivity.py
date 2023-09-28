@@ -15,7 +15,7 @@
 
 hearts = 4
 clubs = 10
-if b > a:
+if clubs > hearts:
     print('B is greater than A')
 else:
     print('B is not greater than A')
