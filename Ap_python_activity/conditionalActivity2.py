@@ -9,17 +9,17 @@
 # your function should also alow the user to put in the time. The time should be 
 # formatted as a float.
  
-def classtime():
+def classtime(time):
     a = 11.30
     b = 1.00
 
 
-    if b > a:
+    if a > b:
         print('class is over. time to go')
     else:
         print('class is still in session')
 input(print('What time is it?: '))
-classtime()
+classtime(1.00)
 
 # 2. Write a function that uses a conditional statement. 
 # your function should determine what type a pet a user has depeding on the data provided by the user
@@ -30,16 +30,14 @@ classtime()
 # know what the animal is. 
 
 def AnimalSound():
-    cat = 'meow'
-    dog = 'woof'
+    sound = input('what animal sound?: ')
 
-    if cat:
-        print('meow')
-    if dog:
-        print('woof')
+    if sound == 'meow':
+        print('cat')
+    if sound == 'woof':
+        print('dog')
     else:
         print('Does not know what the animal is')
-input(print('what animal sound?: '))
 AnimalSound()
 
 
@@ -51,10 +49,11 @@ AnimalSound()
 
 def heightCheck(name):
     tall = 5.5 
+    name = input('what is your name?:  ')
 
-    if tall:
-        print('Welcome'+ name +'please buckle up')
+    if 4.5 > tall:
+        print('Welcome '+ name +' please buckle up')
     else:
-        print('Sorry'+ name +'but you are not tall enough to get the ride')
+        print('Sorry '+ name +' but you are not tall enough to get the ride')
 input(print('How tall are you?: '))
-heightCheck(__name__)
+heightCheck(5.4)
