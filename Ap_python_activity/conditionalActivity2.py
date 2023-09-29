@@ -29,8 +29,32 @@ classtime()
 # ELSE, if it is none of the animal sounds the function should return a message saying it doesn't 
 # know what the animal is. 
 
+def AnimalSound():
+    cat = 'meow'
+    dog = 'woof'
+
+    if cat:
+        print('meow')
+    if dog:
+        print('woof')
+    else:
+        print('Does not know what the animal is')
+input(print('what animal sound?: '))
+AnimalSound()
+
+
 # 3. Write a function that will take in a user name and height as parameters. 
 # Your function should evaluate and determine if the user is tall in enough to get on a roller coster.
 # IF the user is over 5.5, the function should return a custom message saying the user's name
 # and a message "welcome please buckle up".
 # ELSE if they they are not, return a message apologizing to the user saying they are not tall enough.
+
+def heightCheck(name):
+    tall = 5.5 
+
+    if tall:
+        print('Welcome'+ name +'please buckle up')
+    else:
+        print('Sorry'+ name +'but you are not tall enough to get the ride')
+input(print('How tall are you?: '))
+heightCheck(__name__)
