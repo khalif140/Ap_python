@@ -35,7 +35,13 @@ print(random_numbers[0])
 # HINT- part of solving this is that you will need to use the range() function. 
 
 number_list= [1,2,3,4,5,6,7,8,9,10]
-range()
+range(0, 10)
+
+#odd = [x for x in range if x%2==0]
+
+#print(odd)
+
+
 # 4. You have been hired by amazon to be an engineer. Your first assignment is to fix their
 # shopping cart function. Your goal is to create a line of code that will
 # allow users to enter the item they want as a string value, and add it to the items that
@@ -45,3 +51,33 @@ range()
 # HINT - for this function you will need to use the append() function. 
 
 shopping_cart = ['notebook', 'pens','tape','mousepad']
+
+def updateShoppingCart():
+    add_item=input('please add a item to your cart')
+    shopping_cart.append(add_item)
+    print(shopping_cart)
+
+updateShoppingCart()
+
+
+
+
+
+# starter code
+list_of_items=['apple','orange','book']
+
+apple_price = 1.00
+orange_price = 3.00
+book_price= 10.00
+
+def updateListOfItems():
+    add_item=input('please add a item to your cart: ')
+    new_item= float(input('please enter the price of the item: '))
+    list_of_items.append(add_item)
+    total_price = apple_price + orange_price + book_price + new_item
+    print('here are all of your items: ')
+    print(list_of_items)
+    print('total price below: ')
+    print(total_price)
+
+updateListOfItems()
