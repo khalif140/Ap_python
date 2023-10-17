@@ -1,0 +1,123 @@
+MONDAY ASYNC WORK REPORT - OCTOBER 16TH,2023.
+
+Do some research and find a piece of software that is built with Python. 
+The software can be a video game, a website, application, or new technology. Once you've found
+a program that was built with Python, conduct research create a report on what the software is,
+what it does, how the software was built, and most importantly how Python was used. 
+Your report should be atleast 700 words long. You will also need to provide
+citations for where you got your information - you may reference vidoes, 
+blogposts, websites, and articles. Please use MLA citation style.
+Your report will need atleast three (3) citations. 
+Your report will need to be submitted by the end of class.
+
+For your report, you may use a regular text file, just like how this file is formatted.
+text files are made using the .txt extnetion. 
+
+Example: iansReport.txt
+
+
+NO AI GENERATED RESOURCES/ LINKS 
+
+WHAT IS  MLA STYLE CITATION?
+MLA stands for Modern Language Association. As you go further in your academic, 
+and potentially professional career you'll need to conduct research and reference 
+where you got your information. 
+This is done for a variety of reasons, such as:
+- allows your reader to see where you got your information from.
+- gives credit to the people and organizations that have done the research.
+- protects the writer from claims of plagarizing their work. 
+
+MLA is written as followed:
+full name of the author, title of article/ video, date article was published, 
+website link for article/video
+
+Example:
+John Doe, "Article about code", the coding newspaper, 10 October, 2023.
+www.website.com/article
+
+website to reference for MLA style citation: 
+https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_sample_works_cited_page.html
+
+
+#Spotify
+
+
+Spotify is a digital music, podcast, and video service that gives you access to millions of
+ songs and other content from creators all over the world.
+
+Basic functions such as playing music are totally free, but
+ you can also choose to upgrade to Spotify Premium.
+
+Whether you have Premium or not, you can:
+
+Get recommendations based on your taste
+Build collections of music and podcasts
+And more!
+
+Spotify is available across a range of devices, including computers, phones, tablets, speakers, TVs,
+ and cars, and you can easily transition from one to another with Spotify Connect.
+ (https://support.spotify.com/us/article/what-is-spotify/)
+
+TL;DR Architectural diagrams are the bread and butter of software design and a foundational tool for
+ communication and collaboration on software development. At Spotify, we have an incredibly complex
+  network of thousands of interlinked software systems owned by hundreds of teams, so having a simple
+ way to visualize these connections is essential. While capturing all of our software in one large
+ diagram is technically possible, it would be very hard to understand and navigate. ​​We need tools to
+ look at our architecture at different abstraction levels in order to make good design decisions and
+ evolve our software in a sustainable way.
+
+ To be able to reason and communicate around our complex software and the catalog, we’ve introduced a
+ shared language and concept definitions — a system model. The Spotify System Model presents a set of
+ core entities and abstractions we can use to synthesize data about our software health, ownership,
+ and dependencies.
+
+At Spotify, we believe that a solid shared understanding and terminology around software and resources
+ empower communication and collaboration, which is essential to success for a company at our scale.
+
+Our software is modeled using three core entities:
+
+APIs: The boundaries between different components, defining the interface between those components
+Components: Individual pieces of software (e.g., a backend service, website, data pipeline, library)
+Resources: Infrastructure needed to operate a component at runtime (e.g., databases, virtual machines,
+ storage buckets)
+
+The ability to map and track software components in a catalog has been immensely valuable to us — it
+ has allowed us to better understand the scale and development of our software. But as our catalog of
+ individual components has grown in size, those components have become increasingly hard to understand,
+ review, and put in relation to each other. For that reason, we’ve introduced a couple of additional
+ abstractions that help us understand the broader software ecosystem:
+
+Systems: Collections of entities that cooperate to perform some function
+Domains: Entities and systems related to parts of the business
+
+The C4 model is a lightweight and straightforward approach to visualizing software architecture. Besides
+ outlining a few abstractions, C4 defines a standard notation and best practices for drawing diagrams
+ of software systems. Overall, it provides good guidelines to ensure that software diagrams are
+ understandable and are able to stand alone without additional context. C4 strikes a good balance
+ between ad hoc “boxes and arrows” and overly formal standards, fitting like a glove to our needs.
+
+C4 comes with a collection of software abstractions. So how do we apply it alongside our own
+ abstractions in the Spotify System Model? We don’t want to reinvent the wheel, so we kept C4
+ notation and best practices and replaced its abstraction layer with the Spotify System Model.
+ Consequently, we had to redefine the set of core diagrams for documenting architecture and system
+ design:
+
+System landscape diagram: Describes a set of related systems, how they are connected, and what
+ external systems they depend on — for example, all systems owned by a squad or all systems in a
+ domain
+System context diagram: describes how a system fits in the larger context of dependencies, dependents, and users
+System components diagram: Describes how one system is built up from individual components
+ (known as container diagram in C4)
+
+ Having the system model available in Backstage has been very helpful for discovery purposes,
+ understanding lifecycles, ownership, and relationships between software components, and automatically
+ producing software visualization diagrams. The system model and its visualizations also allow us to
+ produce system designs using a universal language — both for new systems and the evolution of existing
+ ones — which has been helpful for communication and has enabled improved cross-team collaboration.
+
+Additionally, visualizing software using C4 provides a high-level overview that can be used to
+ generate insights about repeating patterns, tech debt, and other learnings. This has been highly
+ valuable for onboarding purposes, both for new joiners on teams and external stakeholders. As
+ automated diagrams allow us to traverse the ecosystem interactively, it also makes it easy to
+ understand how systems interconnect.
+ (https://engineering.atspotify.com/2022/07/software-visualization-challenge-accepted/)
