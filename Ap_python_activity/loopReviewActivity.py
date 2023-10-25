@@ -48,7 +48,7 @@ def trafficLight():
     while i < 120:
         print('count down: ' + str(i))
         i-=1
-        ifi/2=0
+        if i/2 = 0
         print(red)
 
 trafficLight()
