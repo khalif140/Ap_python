@@ -11,12 +11,16 @@
 # Finally, find a classmate that has also completed these steps. You will now need to visit that students repository, find their program and clone the program onto your repository. follow their steps and test and check if they're program works.
 
 def comments():
-    limits = str(20)
-    Start = str(print(input("Comment Here: ")))
+    str(print(input("Comment Here: ")))
+    limits = 20
+    Start = 0
 
     if Start > limits:
         print(" Please write shorter ")    
-    else:
+    elif limits > Start:
         print(" comment has been sent! ")
+    else:
+        print("Error try again")
 
 comments()
+
