@@ -5,21 +5,16 @@
 # Your mad lib should be written in complete sentences. 
 # Once completed, submit your madlib to your github repository by using the source control 
 # tool in codespaces. 
-noun = print(input(""))
-noun2 = print(input(""))
-verbs = print(input(""))
-verbs2 = print(input(""))
-adjectives = print(input(""))
-adjectives2 = print(input("")) 
+
 
 
 def mad_libs():
-    print("Your Noun is: " + noun)
-    print("Your Second Noun is: " + noun2)
-    
-    print("Your Verbs is: " + verbs)
-    print("Your Second Verb is: " + verbs2)
+    noun = input("Enter a noun: ")
+    noun2 = input("Enter a noun: ")
+    verbs = input("Enter a verb: ")
+    verbs2 = input("Enter a verb: ")
+    adjectives = input("Enter a adjective: ")
+    adjectives2 = input("Enter a adjective: ")
 
-    print("Your Adjective is: " + adjectives)
-    print("Your Second Adjective is: " + adjectives2)
+
 mad_libs()
